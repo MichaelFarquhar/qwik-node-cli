@@ -1,14 +1,23 @@
 {
   "name": "qwik-node-cli",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "qwik-node-cli": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": "https://github.com/MichaelFarquhar/qwik-node-cli",
+  "homepage": "https://github.com/MichaelFarquhar/qwik-node-cli#readme",
+  "keywords": [
+    "cli",
+    "node"
+  ],
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "dependencies": {
     "commander": "^12.1.0"
   }
